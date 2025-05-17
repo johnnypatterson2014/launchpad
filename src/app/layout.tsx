@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import "./github-markdown.min.css";
 import Link from 'next/link';
 
 export const metadata: Metadata = {
@@ -37,7 +38,7 @@ export default function RootLayout({
 
 
 
-            <div className="relative max-w-[100vw] p-4">
+            <div className="relative max-w-[100vw] p-0">
 
 
               {children}
@@ -49,7 +50,7 @@ export default function RootLayout({
           <div className="drawer-side z-40">
             <label htmlFor="drawer" aria-label="close sidebar" className="drawer-overlay"></label>
 
-            <ul className="menu bg-base-200 text-base-content min-h-full w-80 p-4">
+            <ul className="menu bg-base-200 text-base-content min-h-full w-80 p-1">
 
               {/* Sidebar content here */}
 
@@ -71,7 +72,7 @@ export default function RootLayout({
                     <summary>GenAI Bootcamp</summary>
                     <ul>
                       <li><Link href={'/bootcamp1-1'}>sample python scripts</Link></li>
-
+                      <li><Link href={'/nextjs'}>next.js tutorial</Link></li>
                     </ul>
                   </details>
                 </li>
