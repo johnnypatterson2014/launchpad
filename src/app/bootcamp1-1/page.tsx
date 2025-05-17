@@ -18,7 +18,19 @@ export default function Home() {
 
       </div> */}
 
-      <h2 className="mt-5">001-data-loaders.py</h2>
+      <h2 className="mt-5">Setup</h2>
+      <div className="tw-prose-body mt-2">
+
+        <ul className="ml-5 space-y-1 list-disc list-inside dark:text-gray-400">
+          <li>pyenv local 3.11.4</li>
+          <li>pyenv activate local</li>
+          <li>poetry install</li>
+          <li>poetry shell</li>
+        </ul>
+
+      </div>
+
+      <h2 className="mt-8">001-data-loaders.py</h2>
       <div className="tw-prose-body mt-2">
         Ask the LLM a question about data which was loaded from:
 
