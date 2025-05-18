@@ -22,6 +22,8 @@ export default function Home() {
       <div className="markdown-body">
         <article className="markdown-body-content">
           <h2>Example python project using LangChain and OpenAI</h2>
+          <p>This project only contains python scripts (run on cmd line) which has examples for how to use LangChain (including RAG techniques)</p>
+
           <h2>Setup</h2>
           <ul>
             <li>pyenv local 3.11.4</li>

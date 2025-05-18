@@ -21,6 +21,12 @@ export default function Home() {
       <div className="markdown-body">
         <article className="markdown-body-content">
           <h2>Example Next.js App</h2>
+
+          <p>This project is based on a tutorial from next.js. This app shows how to create a dashboard with SQL integration (postgres), routing, and components that read data asynchronously.
+
+            Link to tutorial: <a href="https://nextjs.org/learn/dashboard-app">https://nextjs.org/learn/dashboard-app</a>
+          </p>
+
           <p>Typescript</p>
           <ul>
             <li>TypeScript is a way of writing JavaScript a bit more structured than pure JavaScript. This variant is

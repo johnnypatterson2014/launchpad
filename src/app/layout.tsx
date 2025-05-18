@@ -73,6 +73,9 @@ export default function RootLayout({
                     <ul>
                       <li><Link href={'/bootcamp1-1'}>sample python scripts</Link></li>
                       <li><Link href={'/nextjs'}>next.js tutorial</Link></li>
+                      <li><Link href={'/llama'}>llamaIndex tutorial</Link></li>
+                      <li><Link href={'/fullstack-1'}>fullstack render vercel</Link></li>
+                      <li><Link href={'/fullstack-2'}>fullstack using AWS DB</Link></li>
                     </ul>
                   </details>
                 </li>
