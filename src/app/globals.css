@@ -82,6 +82,18 @@ h3 {
   --base-size-16: 16px;
 }
 
+.markdown-body table tr {
+  background-color: oklch(27.9% .041 260.031) !important;
+}
+
+.markdown-body table tr:hover {
+  background-color: oklch(0.372 0.044 257.287) !important;
+}
+
+.markdown-body a {
+  color: oklch(86.9% .022 252.894) !important;
+}
+
 ul {
   list-style-type: disc;
 }

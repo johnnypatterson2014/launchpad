@@ -61,12 +61,10 @@ export default function RootLayout({
 
               <ul className="menu bg-base-200 rounded-box w-56 text-md">
 
-                <li>
-                  <Link href={'/'}>home</Link>
-                </li>
-                <li>
-                  <Link href={'/links'}>links</Link>
-                </li>
+                <li><Link href={'/'}>home</Link></li>
+                <li><Link href={'/links'}>links</Link></li>
+                <li><Link href={'/tech-papers'}>technical papers</Link></li>
+                <li><Link href={'/glossary'}>glossary</Link></li>
                 <li>
                   <details open>
                     <summary>GenAI Bootcamp</summary>

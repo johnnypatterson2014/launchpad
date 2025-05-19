@@ -8,7 +8,7 @@ export default function Home() {
       <div className="markdown-body">
         <article className="markdown-body-content">
 
-          <h2>Home</h2>
+          <h2>Glossary</h2>
 
           <p>
             This project is based on...

@@ -4,31 +4,66 @@ export default function Home() {
   return (
 
     <div>
-      <div className="h-4"></div>
 
-      <h2 className="mt-5">Links</h2>
+      <div className="markdown-body">
+        <article className="markdown-body-content">
 
-      <div className="mt-5 rounded-box border border-base-content/5 bg-base-100 max-w-none">
-        <table className="table-md">
-          {/* head */}
-          <thead>
-            <tr>
-              <td>Name</td>
-              <td>Link</td>
-            </tr>
-          </thead>
-          <tbody>
-            {/* row 1 */}
-            <tr>
-              <td>View the request/response to OpenAI</td>
-              <td>
-                <a href="https://smith.langchain.com/">https://smith.langchain.com/ <span className="newWindow6"></span></a>
-              </td>
-            </tr>
+          <h2>Links</h2>
 
-          </tbody>
-        </table>
+          <div className="relative flex flex-col text-slate-300 rounded-lg bg-clip-border">
+            <table className="text-left table-auto rounded-lg">
+              <thead>
+                <tr>
+                  <th className="p-4 border-b border-slate-600 bg-slate-700">
+                    <p className="text-sm font-normal leading-none text-slate-300">
+                      Name
+                    </p>
+                  </th>
+                  <th className="p-4 border-b border-slate-600 bg-slate-700">
+                    <p className="text-sm font-normal leading-none text-slate-300">
+                      Link
+                    </p>
+                  </th>
+
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="hover:bg-slate-700">
+                  <td className="p-4 border-b border-slate-700">
+                    <p className="text-sm text-slate-300">
+                      View the request/response to OpenAI
+                    </p>
+                  </td>
+                  <td className="p-4 border-b border-slate-700">
+                    <p className="text-sm text-slate-300">
+                      <a className="text-sm text-slate-300" href="https://smith.langchain.com/" target="_blank">https://smith.langchain.com/</a>
+                    </p>
+                  </td>
+                </tr>
+
+                <tr className="hover:bg-slate-700">
+                  <td className="p-4 border-b border-slate-700">
+                    <p className="text-sm text-slate-300">
+                      View the request/response to OpenAI
+                    </p>
+                  </td>
+                  <td className="p-4 border-b border-slate-700">
+                    <p className="text-sm text-slate-300">
+                      <a className="text-sm text-slate-300" href="https://smith.langchain.com/" target="_blank">https://smith.langchain.com/</a>
+                    </p>
+                  </td>
+                </tr>
+
+              </tbody>
+            </table>
+          </div>
+
+
+
+
+        </article>
       </div>
+
 
     </div>
 
