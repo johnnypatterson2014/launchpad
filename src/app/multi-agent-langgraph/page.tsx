@@ -12,11 +12,9 @@ export default function Home() {
             <li>github</li>
 
             <li>
-              <a href="https://github.com/johnnypatterson2014/JP-LRN-005-AWS-vercel-frontend" target="_blank">frontend<span className="newWindow6"></span></a>
+              <a href="https://github.com/johnnypatterson2014/JP-AGT-001-multi-agant-langraph" target="_blank">source<span className="newWindow6"></span></a>
             </li>
-            <li>
-              <a href="https://github.com/johnnypatterson2014/JP-LRN-005-AWS-fastapi-backend" target="_blank">backend<span className="newWindow6"></span></a>
-            </li>
+
           </ul>
         </div>
 
@@ -25,10 +23,10 @@ export default function Home() {
 
       <div className="markdown-body">
         <article className="markdown-body-content">
-          <h1>JP-LRN-005-AWS</h1>
+          <h1>JP-AGT-001-multi-agent-langraph</h1>
 
           <p>
-            This is an example full-stack app with integration to an AWS S3 bucket to store pdf files.
+            This project uses langraph to create a team of agents to replace a marketing team.
           </p>
 
           <p>

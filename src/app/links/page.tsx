@@ -16,12 +16,17 @@ export default function Home() {
                 <tr>
                   <th className="p-4 border-b border-slate-600 bg-slate-700">
                     <p className="text-sm font-normal leading-none text-slate-300">
-                      Name
+                      name
                     </p>
                   </th>
                   <th className="p-4 border-b border-slate-600 bg-slate-700">
                     <p className="text-sm font-normal leading-none text-slate-300">
-                      Link
+                      description
+                    </p>
+                  </th>
+                  <th className="p-4 border-b border-slate-600 bg-slate-700">
+                    <p className="text-sm font-normal leading-none text-slate-300">
+                      link
                     </p>
                   </th>
 
@@ -31,7 +36,12 @@ export default function Home() {
                 <tr className="hover:bg-slate-700">
                   <td className="p-4 border-b border-slate-700">
                     <p className="text-sm text-slate-300">
-                      View the request/response to OpenAI
+                      LangSmith account
+                    </p>
+                  </td>
+                  <td className="p-4 border-b border-slate-700">
+                    <p className="text-sm text-slate-300">
+                      View a trace of the calls to/from the LLM.
                     </p>
                   </td>
                   <td className="p-4 border-b border-slate-700">
@@ -41,18 +51,7 @@ export default function Home() {
                   </td>
                 </tr>
 
-                <tr className="hover:bg-slate-700">
-                  <td className="p-4 border-b border-slate-700">
-                    <p className="text-sm text-slate-300">
-                      View the request/response to OpenAI
-                    </p>
-                  </td>
-                  <td className="p-4 border-b border-slate-700">
-                    <p className="text-sm text-slate-300">
-                      <a className="text-sm text-slate-300" href="https://smith.langchain.com/" target="_blank">https://smith.langchain.com/</a>
-                    </p>
-                  </td>
-                </tr>
+
 
               </tbody>
             </table>

@@ -7,17 +7,21 @@ export default function Home() {
 
       <div className="markdown-body">
         <article className="markdown-body-content">
-
-          <h2>Home</h2>
+          <h2>UI to test spring-ai app</h2>
 
           <p>
-            link to github: <a href="https://github.com/johnnypatterson2014?tab=repositories" target="_blank">johnny's github</a>
+            Start docker desktop
+          </p>
 
-
+          <p>
+            [add diagram]
           </p>
 
 
+
         </article>
+
+
       </div>
 
     </div>

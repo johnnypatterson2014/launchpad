@@ -66,7 +66,7 @@ export default function RootLayout({
                 <li><Link href={'/tech-papers'}>technical papers</Link></li>
                 <li><Link href={'/glossary'}>glossary</Link></li>
                 <li>
-                  <details open>
+                  <details>
                     <summary>GenAI Bootcamp</summary>
                     <ul>
                       <li><Link href={'/bootcamp1-1'}>sample python scripts</Link></li>
@@ -74,6 +74,33 @@ export default function RootLayout({
                       <li><Link href={'/llama'}>llamaIndex tutorial</Link></li>
                       <li><Link href={'/fullstack-1'}>fullstack render vercel</Link></li>
                       <li><Link href={'/fullstack-2'}>fullstack using AWS DB</Link></li>
+                      <li><Link href={'/fullstack-3'}>fullstack RAG with PDF in AWS</Link></li>
+                      <li><Link href={'/nextjs-2'}>nextjs RAG PDF in AWS (customized UI)</Link></li>
+                      <li><Link href={'/multi-agent-langgraph'}>multi-agent langraph</Link></li>
+                      <li><Link href={'/multi-agent-crewai'}>multi-agent crewai basic</Link></li>
+                      <li><Link href={'/multi-agent-crewai-2'}>multi-agent crewai level 3</Link></li>
+                    </ul>
+                  </details>
+                </li>
+
+                <li>
+                  <details>
+                    <summary>Agentic AI Bootcamp</summary>
+                    <ul>
+                      <li><Link href={'/temp'}>temp</Link></li>
+
+                    </ul>
+                  </details>
+                </li>
+
+                <li>
+                  <details open>
+                    <summary>Java</summary>
+                    <ul>
+                      <li><Link href={'/spring-boot'}>sample spring boot app</Link></li>
+                    </ul>
+                    <ul>
+                      <li><Link href={'/spring-ai'}>sample spring-ai app</Link></li>
                     </ul>
                   </details>
                 </li>
